@@ -41,19 +41,20 @@ div img{
 
 .top1{
     text-align: left;
-    font: normal normal 300 40px/47px Roboto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #3E3E3E;
+    font-size: 40px;
 }
 
 span{
     text-align: left;
-    font: normal normal 900 40px/53px Roboto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #C8242F;
     }
 
 .login-text{
     text-align: left;
-    font: normal normal normal 25px/33px Roboto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #3E3E3E;
 }
 
@@ -63,7 +64,7 @@ input{
     width: 75%;
     height: 49px;   
     background: #FFFFFF 0% 0% no-repeat padding-box;
-    border: 1px solid #ADADAD;
+    border: 1px solid black;
     border-radius: 5px;
 }
 
@@ -72,6 +73,7 @@ input{
     align-items: center;
     justify-content: space-between;
     width: 77%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 button{
@@ -82,11 +84,12 @@ button{
     height: 45px;
     color: #FFFFFF;
     font-size: 18px;
+    
 }
 
 .forgot p{
     /* text-align: left; */
-    font: normal normal normal 15px/20px Roboto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #ADADAD;
 
 }
@@ -97,13 +100,13 @@ button{
 
 .member{
     /* text-align: left; */
-    font: normal normal normal 15px/20px Roboto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #ADADAD;
 }
 
 #reg{
     /* text-align: left; */
-    font: normal normal normal 15px/20px Roboto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #C8242F;
     margin-left: 5px;
 }
@@ -178,3 +181,9 @@ button{
         justify-content: center;
     }
 }
+
+
+
+
+
+
