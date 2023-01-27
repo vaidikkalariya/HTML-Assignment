@@ -1,0 +1,300 @@
+body{
+    background-color: #FAFAFA;
+    margin: 0;
+}
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    width:100%;
+    height: 80px;
+    z-index: 1;
+}
+
+.dropdown-logo{
+    display: flex;
+    justify-content: space-around;
+    width: 15%;
+}
+
+.searchbar{
+    display: flex;
+    width: 2rem;
+    /* align-items: flex-start; */
+    margin-right: 60%;
+    align-items: center;
+}
+
+/* .searchbar img{
+    width: 2rem;
+} */
+
+input{
+    border: none;
+    margin-left: 10%;
+    font-size: 20px;
+}
+
+.notification{
+    display: flex;
+    width: 15%;
+    justify-content: space-between;
+}
+
+.profile{
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    font-size: 20px;
+    font: normal normal normal 16px/21px Roboto;
+}
+
+#sidebar{
+    /* position: fixed;
+    top: 0;
+    left: 0; */
+    background-color: #FFFFFF;
+    width: 242px;
+    min-height: 100vh;
+}
+
+.sidebarsub{
+    padding-top: 2rem;
+}
+
+#dashboard{
+    width: 84%;
+    margin: 3.5rem;
+    margin-top: 2%;
+}
+
+.dashboard{
+    display: flex;
+    width: 70%;
+    /* justify-content: space-between; */
+    margin-left: 15%;
+    padding-left: 0.7rem;
+    border-radius: 5px;
+    margin-bottom: 8%;
+}
+
+.dashboard-active{
+    background-color: #c8242f3b;
+    color: #c8242f;
+}
+
+.dashboard img{
+    width: 1.5rem;
+    margin-right: 8%;
+}
+
+#container{
+    display: flex; 
+}
+
+.dashboard-title{
+    /* display: block; */
+    /* width: 146px;
+    height: 39px;     */
+    font-family: Roboto;
+    /* margin-left: 3.5rem; */
+}
+
+#sale{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 1rem; */
+    flex-wrap: wrap;
+    /* margin-left: 3%; */
+    /* margin-right: 3%; */
+    border-radius: 5px;
+}
+
+.sale{
+    display: flex;
+    background-color: #FFFFFF;
+    width: 18%;
+    height: 116px;   
+    justify-content: center;
+    align-items: center;   
+}
+
+.sale img{
+    width: 2.5rem;
+    /* margin: auto; */
+}
+
+.inner{
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 19.33px; */
+    margin-left: 8%;
+    font-family: Roboto;
+}
+
+#graph{
+    display: flex;
+    justify-content: space-between;
+}
+
+.graph1,.graph2{
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 2rem;
+}
+
+.graph1{
+    width: 55%;
+    /* height: 40%; */
+}
+
+.graph2{
+    width: 30%;
+    /* height: 50%; */
+}
+
+.graph1 img{
+    width: 100%;
+    margin-top: 5%;
+}
+
+.inner h2,.inner p{
+    margin: 0%;
+} 
+
+.graph-title{
+    display: flex;
+    justify-content: space-between;
+    /* color: #3E3E3E; */
+}
+
+.graph-title p{
+    margin: 0%;
+    font-family: Roboto;
+    color: #3E3E3E;
+    font-weight: 600;
+}
+
+.h5{
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+    /* align-items: right; */
+    /* margin-left: 70%; */
+    color: #ADADAD;
+    font-family: Roboto;
+    /* font-weight: 100; */
+    letter-spacing: 0.5px;
+}
+
+h5{
+    margin: 0%;
+}
+
+.h5-active{
+    color: #C8242F;
+    border-bottom: 2px solid #C8242F;
+}
+
+.graph2 img{
+    width: 60%;
+    margin-left: calc(50% - 30%);
+}
+
+.desc{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.contry-name{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    font-family: Roboto;
+}
+
+.contry-name p{
+    margin-left: 10px;
+}
+
+.dot{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+}
+
+#table{
+    background-color: #FFFFFF;
+    margin-top: 2%;
+    padding: 2rem;
+    font-family: Roboto;
+}
+
+.invoice{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Roboto;
+}
+
+.invoice-title{
+    font-size: 22px;
+    color: #3E3E3E;
+    font-weight: 600;
+    width: 18%;
+}
+
+.invoice p{
+    margin: 0%;
+}
+
+.view-all{
+    color: #C8242F;
+}
+
+table {
+    margin-top: 2%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    /* border: 1px solid #ddd; */
+}
+  
+th, td {
+    text-align: left;
+    padding: 15px;
+    border-bottom: 1px solid #ADADAD;
+}
+
+th{
+    color: #ADADAD;
+    font-weight: 100;
+}
+
+.common-status
+{
+  margin: 0;
+  text-align: center;
+  width: fit-content;
+  padding: 8px 20px;
+  border-radius: 10px;
+}
+.paid
+{
+  background-color: #3cdd5f46;
+  color: #3CDD5F;
+}
+.failed
+{
+  background-color: #ff454551;
+  color: #FF4545;
+}
+.pending
+{
+  color: #BABABA;
+  background-color: #bababa67;
+}
