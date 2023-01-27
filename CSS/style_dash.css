@@ -48,7 +48,7 @@ input{
     width: 70%;
     justify-content: space-around;
     font-size: 20px;
-    font: normal normal normal 16px/21px Roboto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #sidebar{
@@ -98,7 +98,7 @@ input{
     /* display: block; */
     /* width: 146px;
     height: 39px;     */
-    font-family: Roboto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     /* margin-left: 3.5rem; */
 }
 
@@ -131,7 +131,7 @@ input{
     flex-direction: column;
     /* margin-left: 19.33px; */
     margin-left: 8%;
-    font-family: Roboto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #graph{
@@ -172,7 +172,7 @@ input{
 
 .graph-title p{
     margin: 0%;
-    font-family: Roboto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #3E3E3E;
     font-weight: 600;
 }
@@ -184,7 +184,7 @@ input{
     /* align-items: right; */
     /* margin-left: 70%; */
     color: #ADADAD;
-    font-family: Roboto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     /* font-weight: 100; */
     letter-spacing: 0.5px;
 }
@@ -214,7 +214,7 @@ h5{
     display: flex;
     align-items: center;
     /* justify-content: space-between; */
-    font-family: Roboto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .contry-name p{
@@ -231,14 +231,14 @@ h5{
     background-color: #FFFFFF;
     margin-top: 2%;
     padding: 2rem;
-    font-family: Roboto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .invoice{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: Roboto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .invoice-title{
@@ -298,3 +298,6 @@ th{
   color: #BABABA;
   background-color: #bababa67;
 }
+
+    
+    
