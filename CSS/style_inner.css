@@ -1,0 +1,292 @@
+body{
+   background-color: #FAFAFA !important;
+   margin: 0;
+}
+
+p{
+   margin-block-start: 1em !important;
+   margin-block-end: 1em !important;
+}
+
+#nav{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #FFFFFF;
+   width:100%;
+   height: 80px;
+   z-index: 1;
+}
+
+.dropdown-logo{
+   display: flex;
+   justify-content: space-around;
+   width: 15%;
+}
+
+.searchbar{
+   display: flex;
+   width: 2rem;
+   /* align-items: flex-start; */
+   margin-right: 60%;
+   align-items: center;
+}
+
+/* .searchbar img{
+   width: 2rem;
+} */
+
+input{
+   border: none;
+   margin-left: 10%;
+   font-size: 20px;
+}
+
+.notification{
+   display: flex;
+   width: 15%;
+   justify-content: space-between;
+}
+
+.profile{
+   display: flex;
+   width: 70%;
+   justify-content: space-around;
+   font-size: 20px;
+   font: normal normal normal 16px/21px Roboto;
+}
+
+.sidebar{
+   /* position: fixed; */
+   /* top: 0;
+   left: 0; */
+   background-color: #FFFFFF;
+   /* width: 242px; */
+   min-height: 100vh;
+   overflow: hidden;
+   z-index: 1;
+   transition: 600ms;
+}
+
+.width-0{
+   width: 0;
+}
+
+.slidebar-active{
+   width: 250px;
+}
+
+.sidebarsub{
+   padding-top: 2rem;
+}
+
+#dashboard{
+   width: 84%;
+   margin: 100rem;
+   margin-top: 2%;
+}
+
+.dashboard{
+   display: flex;
+   width: 70%;
+   /* justify-content: space-between; */
+   margin-left: 15%;
+   padding-left: 0.7rem;
+   border-radius: 5px;
+   margin-bottom: 8%;
+}
+
+.dashboard-active{
+   background-color: #c8242f3b;
+   color: #c8242f;
+}
+
+.dashboard img{
+   width: 1.5rem;
+   margin-right: 8%;
+}
+
+
+#container{
+   display: flex; 
+   /* align-items: center; */
+   /* justify-content: center; */
+}
+
+.analysis{
+   width: 90%;
+   /* justify-content: center; */
+   margin: 2%;
+}
+
+form{
+   padding: 15px;
+   background-color: #FFFFFF;
+}
+
+/* #inputGroupSelect01{
+   margin-top: 1%;
+   width: 100%;
+   color: #ADADAD;
+   border-color: #ADADAD;
+   border-radius: 2%;
+} */
+
+.inputGroupSelect01{
+   margin-top: .75rem;
+}
+
+.floating-label-group {
+  position: relative;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.floating-label {
+  font-size: 13px;
+  color: #cccccc;
+  position: absolute;
+  pointer-events: none;
+  top: 9px;
+  left: 27px;
+  transition: all 0.1s ease;
+}
+
+input:focus ~ .floating-label,
+input:not(:focus):valid ~ .floating-label {
+  top: -10px;
+  bottom: 20px;
+  left: 22px;
+  font-size: 11px;
+  opacity: 1;
+  color: #404040;
+  background: white;
+}
+
+.dropdown2{
+   width: 48% !important;
+   margin-bottom: 5% !important;
+
+}
+
+/*  .row {
+  margin-top: 50px;
+} 
+
+/* .twocolumn{
+   display: flex;
+} */
+
+/* .div2{
+   border: none !important;
+   background-color: #FAFAFA !important;
+   width: 40% !important;
+} */
+
+#disabled{
+   border: dotted;
+   border-color: #ADADAD;
+}
+
+.upload-button{
+   border-radius: 18px !important;
+   color: #C8242F;
+   border: 1px solid #C8242F !important;
+   background-color: #FFFFFF;
+}
+
+.fileupload, .radio, .checkbox, .snackbar, .calltoaction, .tabdiv{
+   margin-top: 1rem;
+}
+
+.form-check-input{
+   accent-color: #C8242F;
+}
+
+
+.upload-text{
+   color: #ADADAD;
+   margin-left: 25px;
+}
+
+.alert{
+   margin: 0px 10px;
+   border-radius: 5px !important;
+   border: 1px solid !important;
+}
+
+.danger{
+   color: #FF3535 !important;
+   
+}
+
+.primary{
+   /* border: 1px solid #00B9E1; */
+   color:  #00B9E1 !important;
+}
+
+.warning{
+   /* border: 1px solid #FFA800; */
+   color: #FFA800 !important ;
+}
+
+.success{
+   /* border: 1px solid #00AF27; */
+   color: #00AF27 !important;
+}
+
+.error-img{
+   width: 20px;
+   /* height: 20px; */
+   margin-right: 10px;
+}
+
+
+.red{
+   border-radius: 23px !important;
+   width: 124px;
+   height: 45px;
+}
+
+.white{
+   width: 124px;
+   height: 45px;
+   border: 1px solid #C8242F !important;
+   border-radius: 23px !important;
+   /* color: #C8242F !important; */
+   margin-left: 20px;
+   background-color: #FFFFFF;
+}
+
+.tab{
+   display: flex;
+   flex-direction: row;
+}
+
+.highlighted-tab{
+   color: #C8242F !important;
+   padding-bottom: 3px;
+   border-bottom:3px solid #C8242F;
+}
+.tab-data{
+   margin: 0px 20px;
+   color: #ADADAD;
+}
+
+.tab p{
+   margin-block-end: 0 !important;
+}
+
+hr{
+   margin-block-start: 0 !important;
+}
+#alert danger d-flex align-items-center col{
+   border-color: #C8242F;
+}
+
+
+ @media screen {max-width: 1240px; and min-width: 801px;}
+
+      
+
+
