@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innerpage</title>
+    <link type="text/css" rel="stylesheet" href="CSS\style_inner.css">
+    <link type="text/css" rel="stylesheet" href="CSS\bootstrap.min.css">
+</head>
+<body>
+    <div id="nav">
+        <div class="dropdown-logo">
+            <img src="Image\menu-bar.svg" alt="menu-bar" onclick="hide()">
+            <img src="Image\header-logo.svg" alt="logo">
+        </div>
+        <div class="searchbar">
+            <img src="Image\search-icon.svg" alt="search-icon">
+            <input type="text" placeholder="search">
+        </div>
+        <div class="notification">
+            <img src="Image\notification-icon.svg" alt="notification">
+            <div class="profile">
+                <img src="Image\profile.png" alt="profile">
+                <p>John Doe</p>
+                <img src="Image\downward-arrow.svg" alt="downward-arrow">
+            </div>
+        </div>
+    </div>
+
+    <div id="container">
+        <div id="sidebar" class="sidebar width-0">
+            <div class="sidebarsub">
+                <div class="dashboard">
+                    <img src="Image\dashboard-default.svg" alt="dashboard-default">
+                    <p>Dashboard</p>
+                </div>
+                <div class="dashboard dashboard-active">
+                    <img src="Image\graph-default.svg" alt="graph-default">
+                    <p>Analysis</p>
+                </div>
+                <div class="dashboard">
+                    <img src="Image\inbox-default.svg" alt="inbox-default">
+                    <p>Inbox</p>
+                </div>
+                <div class="dashboard">
+                    <img src="Image\clock-default.svg" alt="clock-default">
+                    <p>History</p>
+                </div>
+                <div class="dashboard">
+                    <img src="Image\user-default.svg" alt="user-default">
+                    <p>Users</p>
+                </div>
+                <div class="dashboard">
+                    <img src="Image\maintenance-default.svg" alt="maintenance-default">
+                    <p>Maintenance</p>
+                </div>
+                <div class="dashboard">
+                    <img src="Image\setting-default.svg" alt="setting-default">
+                    <p>Setting</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="analysis">
+          <h1>Analysis</h1>
+          <form>
+            <h5>One Column</h5>
+            <div class="mb-3">
+              <input type="text" class="form-control" placeholder="Name" aria-describedby="emailHelp">
+              <select class="form-control form-select select1 inputGroupSelect01">
+                <option selected>Dropdown</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+            <div class="form-floating">
+                <textarea class="form-control" placeholder="Multiple line" id="floatingTextarea2" style="height: 100px"></textarea>
+            </div>
+
+            <h5>Two column</h5>
+            <!-- <div class="row">
+              <div class="floating-label-group col">
+                <input type="text" class="form-control" placeholder="Name" aria-label="First name">
+                <label class="floating-label">Name</label>
+              </div>
+              <div class="floating-label-group col">
+                <input type="text" class="form-control" placeholder="John Doe" aria-label="Last name">
+                <label class="floating-label">Username</label>
+              </div>
+              <div class="row">
+                <div class="floating-label-group col">
+                  <input type="password" class="form-control" placeholder="Password" aria-label="First name">
+                  <label class="floating-label">Password</label>
+                </div>
+                <select class="form-select col select1" id="inputGroupSelect01">
+                    <option selected>Dropdown</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+              </div>
+            </div> -->
+            <div class="twocolumn">  
+              <div class="row">
+                <!-- <div class="form-control div2"> -->
+                  <div class="floating-label-group col-xl-6">
+                  <input type="text" id="name" class="form-control" autocomplete="off" autofocus required />
+                    <label class="floating-label">Name</label>
+                  </div>
+                  
+                  <div class="floating-label-group col-xl-6">
+                    <input type="text" id="username" class="form-control" autocomplete="off" autofocus required />
+                      <label class="floating-label">Username</label>
+                  </div>
+                <!-- </div> -->
+              </div>
+
+              <div class="row">
+                <!-- <div class="form-control div2"> -->
+                  <div class="floating-label-group col-xl-6 div2">
+                    <input type="password" id="password" class="form-control" autocomplete="off" required />
+                    <label class="floating-label">Password</label>
+                  </div>
+                
+                  <select class="form-control form-select select1 inputGroupSelect01 col-xl-6 dropdown2">
+                    <option selected>Dropdown</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                <!-- </div> -->
+              </div>
+            </div>
+
+            <div class="threecolumn">
+              <h5>Three Column</h5>
+              <!-- <div class="row">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Focus" aria-label="First name">
+                </div>
+                <div class="col">
+                  <input type="password" class="form-control" placeholder="Password" aria-label="Last name">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control disabled" placeholder="John Doe" aria-label="Last name" disabled>
+                  </div>
+              </div> -->
+              <div class="row">
+                <!-- <div class="col-xl-3"> -->
+                  <div class="floating-label-group col-xl-4">
+                  <input type="text" id="focus" class="form-control" autocomplete="off" autofocus required />
+                    <label class="floating-label">Focus</label>
+                  </div>
+                
+                  <div class="floating-label-group col-xl-4">
+                  <input type="password" id="password1" class="form-control" autocomplete="off" required />
+                  <label class="floating-label">Password</label>
+                  </div>
+
+                  <div class="floating-label-group col-xl-4">
+                    <input type="text" id="disabled" class="form-control disabled" autocomplete="off" required disabled />
+                    <label class="floating-label">Disabled</label>
+                    </div>
+                <!-- </div> -->
+              </div>
+
+
+            </div>
+              <h5>Four Column</h5>
+              <div class="row">
+                <div class="floating-label-group col">
+                    <!-- <input type="email" class="form-control" aria-describedby="emailHelp"> -->
+                    <input type="text" class="form-control is-invalid" id="validationServer03" aria-describedby="validationServer03Feedback" required>
+                    <div id="validationServer03Feedback" class="invalid-feedback">
+                      Enter valid data
+                    </div>
+                    <label class="floating-label">Designation</label>
+                </div>
+
+                <div class="floating-label-group col">
+                  <input type="text" class="form-control is-invalid" id="validationServer03" aria-describedby="validationServer03Feedback" required>
+                    <div id="validationServer03Feedback" class="invalid-feedback">
+                      Enter your full Name as per ID
+                    </div>
+                    <label class="floating-label">Name</label>
+                </div>
+
+                <div class="floating-label-group col">
+                  <input type="text" class="form-control" aria-label="Last name" required>
+                  <label class="floating-label">Username</label>
+                </div>
+
+                <div class="col">
+                  <select class="form-control form-select inputGroupSelect01">
+                    <option selected>Select</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                </div>
+              </div>
+
+              <div>
+                <h5>Other Design Elements</h5>
+                
+                <div class="fileupload">
+                  <h6>File Upload</h6>
+                    <div class="upload">
+                      <button class="upload-button btn"><img src="Image\cloud-upload-icon.svg">Upload</button>
+                      <span class="upload-text">No item Selected</span>
+                    </div>
+                </div>
+
+                <div class="radio">
+                  <h6>Radio Button</h6>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                    <label class="form-check-label" for="inlineRadio1">Option 1</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2" checked>
+                    <label class="form-check-label" for="inlineRadio2">Option 2</label>
+                  </div>
+                </div>
+
+                <div class="checkbox">
+                  <h6>Check Box</h6>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                    <label class="form-check-label" for="inlineCheckbox1">Option 1</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2" checked>
+                    <label class="form-check-label" for="inlineCheckbox2">Option 2</label>
+                  </div>
+                </div>
+
+                <div class="snackbar">
+                    <h6>Snackbar</h6>
+                    <div class="row">
+                      <div class="alert danger d-flex align-items-center col" role="alert">
+                        <img src="Image\error-icon.svg" class="error-img">
+                        This is an error message!
+                      </div>
+                      <div class="alert primary d-flex align-items-center col" role="alert">
+                        <img src="Image\info-icon.svg" class="error-img">
+                        This is an information message!
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="alert warning d-flex align-items-center col" role="alert">
+                        <img src="Image\warning-icon.svg" class="error-img">
+                        This is an warning message!
+                      </div>
+                      <div class="alert success d-flex align-items-center col" role="alert">
+                        <img src="Image\success-icon.svg" class="error-img">
+                        This is an Success message!
+                      </div>
+                    </div>
+                  </div>
+
+                <div class="calltoaction">
+                  <h6>Call to action</h6>
+                  <!-- <button type="button" class="btn btn-danger red">Primary</button>
+                  <button type="button" class="btn white">Secondary</button> -->
+
+                  <button type="button" class="btn btn-outline-danger red">Primary</button>
+                  <button type="button" class="btn btn-outline-danger white">Secondary</button>
+                </div>
+
+                <div class="tabdiv">
+                  <h6>Tabs</h6>
+                  <div class="tab">
+                    <p class="highlighted-tab tab-data"><strong>Tab 1</strong></p>
+                    <p class="tab-data">Tab 2</p>
+                    <p class="tab-data">Tab 3</p>
+                  </div>
+                  <hr>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+                  </p>
+                </div>
+                
+              </div>
+          </form>
+        </div>
+    </div>
+</body>
+<script>
+    let sidebar = document.getElementById("sidebar");
+    function hide(){
+        sidebar.classList.toggle("width-0")
+        sidebar.classList.toggle("slidebar-active")
+    }
+</script>
+</html>
