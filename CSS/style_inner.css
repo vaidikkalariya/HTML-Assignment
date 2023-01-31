@@ -161,6 +161,7 @@ input:not(:focus):valid ~ .floating-label {
   opacity: 1;
   color: #404040;
   background: white;
+  
 }
 
 .dropdown2{
@@ -169,7 +170,7 @@ input:not(:focus):valid ~ .floating-label {
 
 }
 
-/*  .row {
+/* .row {
   margin-top: 50px;
 } 
 
@@ -185,14 +186,14 @@ input:not(:focus):valid ~ .floating-label {
 
 #disabled{
    border: dotted;
-   border-color: #ADADAD;
+   border-color: #adadad;  
 }
 
 .upload-button{
    border-radius: 18px !important;
-   color: #C8242F;
+   color: #6024c8;
    border: 1px solid #C8242F !important;
-   background-color: #FFFFFF;
+   background-color: #ffffff;
 }
 
 .fileupload, .radio, .checkbox, .snackbar, .calltoaction, .tabdiv{
@@ -205,7 +206,7 @@ input:not(:focus):valid ~ .floating-label {
 
 
 .upload-text{
-   color: #ADADAD;
+   color: #adadad;
    margin-left: 25px;
 }
 
@@ -285,7 +286,79 @@ hr{
 }
 
 
- @media screen {max-width: 1240px; and min-width: 801px;}
+
+ 
+@media screen and (max-width: 501px) and (min-width: 300px) {
+    
+   #nav{
+       justify-content: space-around;
+   }
+
+   .dropdown-logo{
+       display: flex;
+       justify-content: space-between;
+       width: 40%;
+   }
+
+   .notification{
+       display: flex;
+       width: 28%;
+       justify-content: space-between;
+   }
+
+   .profile{
+       display: flex;
+       width: 60%;
+       justify-content: space-around;
+   }
+   .profile p{
+       display: none;
+   }
+
+   .searchbar{
+       display: none;
+   }
+   
+   .searchbar-dash{
+       display: flex !important;
+   }
+   .sidebar{
+      position: fixed;
+   }
+}
+
+
+@media screen and (max-width: 900px) and (min-width: 500px) {
+   
+   #nav{
+       /* width: 80%; */
+       justify-content: space-around;
+   }
+
+   .dropdown-logo{
+       display: flex;
+       justify-content: space-around;
+       width: 35%;
+   }
+
+   .notification{
+       display: flex;
+       width: 35%;
+       justify-content: space-between;
+   }
+
+   .searchbar{
+       display: none;
+   }
+   .searchbar-dash{
+       display: flex !important;
+       width: 2rem;
+       /* align-items: flex-start; */
+       margin-right: 60%;
+       align-items: center;
+   }
+
+}
 
       
 
