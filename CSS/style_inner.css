@@ -132,9 +132,13 @@ form{
    border-radius: 2%;
 } */
 
-.inputGroupSelect01{
-   margin-top: .75rem;
-}
+/* .inputGroupSelect01{
+   margin-bottom: 18px !important;
+} */
+
+/* .form-control{
+   margin-bottom: 18px !important;
+} */
 
 .floating-label-group {
   position: relative;
@@ -166,6 +170,7 @@ input:not(:focus):valid ~ .floating-label {
 
 .dropdown2{
    width: 48% !important;
+   margin-left: 12px;
    margin-bottom: 5% !important;
 
 }
@@ -211,9 +216,14 @@ input:not(:focus):valid ~ .floating-label {
 }
 
 .alert{
-   margin: 0px 10px;
+   margin-right: 10px;
+   /* width: 2% !important; */
    border-radius: 5px !important;
    border: 1px solid !important;
+}
+
+.col-xl-3{
+   width: 24% !important;
 }
 
 .danger{
@@ -325,6 +335,23 @@ hr{
    .sidebar{
       position: fixed;
    }
+   .dropdown2{
+      min-width: 94% !important;
+      /* margin-right: 50px !important; */
+   }
+   #validationServer03{
+      width: 100% !important;
+
+      /* display: flex !important; */
+      /* columns: 4cm !important; */
+
+   }
+   .inputGroupSelect01{
+      display: flex !important;
+   }
+   /* .row{
+      display: flex;
+   } */
 }
 
 
@@ -357,9 +384,16 @@ hr{
        margin-right: 60%;
        align-items: center;
    }
+   
 
 }
 
+@media screen and (max-width: 1124px) {
+   .alert{
+      width: 100% !important;
+   }
+   
+}
       
 
 
